@@ -7,8 +7,8 @@ Therefore, I created this project. The request is sent via a TCP socket. A serve
 
 ## Requirements
 
-1. Node.js is install
-2. Powershell is installed
+1. Node.js is installed
+2. Powershell is installed (comes with windows 10/11)
 3. Windows is being used
 
 ## Usage
