@@ -17,4 +17,6 @@ Therefore, I created this project. The request is sent via a TCP socket. A serve
 2. cd into the cloned repo
 3. use ```node server.js```
 
-Now in you other programs, you can send data over localhost:9100 and it will act as "Microsoft Print to PDF" over a TCP port.
+Now in you other programs, you can send data over localhost:9100 or localhost:9101 and it will act as "Microsoft Print to PDF" over a TCP port.  
+Port 9100 acts as a thermal printer and expects raw text inputs. POS/ESC not supported.  
+Port 9101 acts as a regular printer and expects pdf.  
